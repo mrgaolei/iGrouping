@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81A5EDCD1936DDC20070B70D"
-               BuildableName = "grouper.app"
+               BuildableName = "iGrouping.app"
                BlueprintName = "iGrouping"
                ReferencedContainer = "container:iGrouping.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81A5EDF11936DDC20070B70D"
-               BuildableName = "grouperTests.xctest"
+               BuildableName = "iGroupingTests.xctest"
                BlueprintName = "iGroupingTests"
                ReferencedContainer = "container:iGrouping.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81A5EDCD1936DDC20070B70D"
-            BuildableName = "grouper.app"
+            BuildableName = "iGrouping.app"
             BlueprintName = "iGrouping"
             ReferencedContainer = "container:iGrouping.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81A5EDCD1936DDC20070B70D"
-            BuildableName = "grouper.app"
+            BuildableName = "iGrouping.app"
             BlueprintName = "iGrouping"
             ReferencedContainer = "container:iGrouping.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81A5EDCD1936DDC20070B70D"
-            BuildableName = "grouper.app"
+            BuildableName = "iGrouping.app"
             BlueprintName = "iGrouping"
             ReferencedContainer = "container:iGrouping.xcodeproj">
          </BuildableReference>
