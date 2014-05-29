@@ -9,4 +9,4 @@ Support config how many groups you are grouping and number of each group.
 支持定义每组多少人和共有多少组。
 
 
-![iPhone ScreenShot](http://ww1.sinaimg.cn/bmiddle/54f09b5agw1egv80r3z37j20hs0vkdgx.jpg)
+<img src='http://ww1.sinaimg.cn/bmiddle/54f09b5agw1egv80r3z37j20hs0vkdgx.jpg' alt='iPhone ScreenShot' />
