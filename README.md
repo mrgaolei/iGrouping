@@ -13,3 +13,7 @@ Support config how many groups you are grouping and number of each group.
 <img src='http://ww2.sinaimg.cn/bmiddle/54f09b5agw1egv80u9tjqj20hs0vkt9u.jpg' alt='iPhone ScreenShot' />
 <img src='http://ww3.sinaimg.cn/bmiddle/54f09b5agw1egv80xdx4dj216o1kwwgy.jpg' alt='iPad ScreenShot' />
 <img src='http://ww4.sinaimg.cn/bmiddle/54f09b5agw1egv80yx913j21kw16ojur.jpg' alt='iPad ScreenShot' />
+
+
+依赖项目：
+<a href="https://github.com/nicklockwood/ArrayUtils">ArrayUtils</a>
