@@ -1,0 +1,10 @@
+PODS:
+  - ArrayUtils (1.3)
+
+DEPENDENCIES:
+  - ArrayUtils (~> 1.3)
+
+SPEC CHECKSUMS:
+  ArrayUtils: cd4b8642c89327aa3ffaca1c85348566a328a878
+
+COCOAPODS: 0.33.1

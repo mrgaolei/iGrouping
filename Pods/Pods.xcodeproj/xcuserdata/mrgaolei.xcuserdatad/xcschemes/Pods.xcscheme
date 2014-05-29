@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "81A5EDCD1936DDC20070B70D"
-               BuildableName = "grouper.app"
-               BlueprintName = "grouper"
-               ReferencedContainer = "container:grouper.xcodeproj">
+               BlueprintIdentifier = "63FA79F19BC2403D9CBEB17E"
+               BuildableName = "libPods.a"
+               BlueprintName = "Pods"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "81A5EDF11936DDC20070B70D"
-               BuildableName = "grouperTests.xctest"
-               BlueprintName = "grouperTests"
-               ReferencedContainer = "container:grouper.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "81A5EDCD1936DDC20070B70D"
-            BuildableName = "grouper.app"
-            BlueprintName = "grouper"
-            ReferencedContainer = "container:grouper.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -58,15 +39,6 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "81A5EDCD1936DDC20070B70D"
-            BuildableName = "grouper.app"
-            BlueprintName = "grouper"
-            ReferencedContainer = "container:grouper.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -76,15 +48,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "81A5EDCD1936DDC20070B70D"
-            BuildableName = "grouper.app"
-            BlueprintName = "grouper"
-            ReferencedContainer = "container:grouper.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

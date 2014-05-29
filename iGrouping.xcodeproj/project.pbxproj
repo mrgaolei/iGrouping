@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D28DE16DD5043679BFEA9C5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9696830F174E4681AC8545 /* libPods.a */; };
 		81A5EDD21936DDC20070B70D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A5EDD11936DDC20070B70D /* Foundation.framework */; };
 		81A5EDD41936DDC20070B70D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A5EDD31936DDC20070B70D /* CoreGraphics.framework */; };
 		81A5EDD61936DDC20070B70D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A5EDD51936DDC20070B70D /* UIKit.framework */; };
@@ -15,13 +16,15 @@
 		81A5EDE21936DDC20070B70D /* WPGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A5EDE11936DDC20070B70D /* WPGAppDelegate.m */; };
 		81A5EDE51936DDC20070B70D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A5EDE31936DDC20070B70D /* Main_iPhone.storyboard */; };
 		81A5EDE81936DDC20070B70D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A5EDE61936DDC20070B70D /* Main_iPad.storyboard */; };
-		81A5EDEB1936DDC20070B70D /* WPGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A5EDEA1936DDC20070B70D /* WPGViewController.m */; };
 		81A5EDED1936DDC20070B70D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A5EDEC1936DDC20070B70D /* Images.xcassets */; };
 		81A5EDF41936DDC20070B70D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A5EDF31936DDC20070B70D /* XCTest.framework */; };
 		81A5EDF51936DDC20070B70D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A5EDD11936DDC20070B70D /* Foundation.framework */; };
 		81A5EDF61936DDC20070B70D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A5EDD51936DDC20070B70D /* UIKit.framework */; };
 		81A5EDFE1936DDC20070B70D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81A5EDFC1936DDC20070B70D /* InfoPlist.strings */; };
 		81A5EE001936DDC20070B70D /* grouperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A5EDFF1936DDC20070B70D /* grouperTests.m */; };
+		81A5EE0B1936DF8D0070B70D /* WPGConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A5EE0A1936DF8D0070B70D /* WPGConfigViewController.m */; };
+		81A5EE0E1936E2F30070B70D /* WPGGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A5EE0D1936E2F30070B70D /* WPGGroupViewController.m */; };
+		81A5EE12193710760070B70D /* WPGQianCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A5EE11193710760070B70D /* WPGQianCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +38,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		81A5EDCE1936DDC20070B70D /* grouper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grouper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9696830F174E4681AC8545 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A5EDCE1936DDC20070B70D /* iGrouping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGrouping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A5EDD11936DDC20070B70D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		81A5EDD31936DDC20070B70D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		81A5EDD51936DDC20070B70D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		81A5EDD91936DDC20070B70D /* grouper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "grouper-Info.plist"; sourceTree = "<group>"; };
+		81A5EDD91936DDC20070B70D /* iGrouping-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iGrouping-Info.plist"; sourceTree = "<group>"; };
 		81A5EDDB1936DDC20070B70D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81A5EDDD1936DDC20070B70D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		81A5EDDF1936DDC20070B70D /* grouper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "grouper-Prefix.pch"; sourceTree = "<group>"; };
+		81A5EDDF1936DDC20070B70D /* iGrouping-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iGrouping-Prefix.pch"; sourceTree = "<group>"; };
 		81A5EDE01936DDC20070B70D /* WPGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPGAppDelegate.h; sourceTree = "<group>"; };
 		81A5EDE11936DDC20070B70D /* WPGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPGAppDelegate.m; sourceTree = "<group>"; };
 		81A5EDE41936DDC20070B70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		81A5EDE71936DDC20070B70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		81A5EDE91936DDC20070B70D /* WPGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPGViewController.h; sourceTree = "<group>"; };
-		81A5EDEA1936DDC20070B70D /* WPGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPGViewController.m; sourceTree = "<group>"; };
 		81A5EDEC1936DDC20070B70D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		81A5EDF21936DDC20070B70D /* grouperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grouperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A5EDF21936DDC20070B70D /* iGroupingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iGroupingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A5EDF31936DDC20070B70D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		81A5EDFB1936DDC20070B70D /* grouperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "grouperTests-Info.plist"; sourceTree = "<group>"; };
+		81A5EDFB1936DDC20070B70D /* iGroupingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iGroupingTests-Info.plist"; sourceTree = "<group>"; };
 		81A5EDFD1936DDC20070B70D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81A5EDFF1936DDC20070B70D /* grouperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = grouperTests.m; sourceTree = "<group>"; };
+		81A5EE091936DF8D0070B70D /* WPGConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPGConfigViewController.h; sourceTree = "<group>"; };
+		81A5EE0A1936DF8D0070B70D /* WPGConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPGConfigViewController.m; sourceTree = "<group>"; };
+		81A5EE0C1936E2F30070B70D /* WPGGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPGGroupViewController.h; sourceTree = "<group>"; };
+		81A5EE0D1936E2F30070B70D /* WPGGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPGGroupViewController.m; sourceTree = "<group>"; };
+		81A5EE10193710760070B70D /* WPGQianCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPGQianCell.h; sourceTree = "<group>"; };
+		81A5EE11193710760070B70D /* WPGQianCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPGQianCell.m; sourceTree = "<group>"; };
+		D2738D3D3F144234ACB0A007 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +74,7 @@
 				81A5EDD41936DDC20070B70D /* CoreGraphics.framework in Frameworks */,
 				81A5EDD61936DDC20070B70D /* UIKit.framework in Frameworks */,
 				81A5EDD21936DDC20070B70D /* Foundation.framework in Frameworks */,
+				7D28DE16DD5043679BFEA9C5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,14 +98,15 @@
 				81A5EDF91936DDC20070B70D /* grouperTests */,
 				81A5EDD01936DDC20070B70D /* Frameworks */,
 				81A5EDCF1936DDC20070B70D /* Products */,
+				D2738D3D3F144234ACB0A007 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		81A5EDCF1936DDC20070B70D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81A5EDCE1936DDC20070B70D /* grouper.app */,
-				81A5EDF21936DDC20070B70D /* grouperTests.xctest */,
+				81A5EDCE1936DDC20070B70D /* iGrouping.app */,
+				81A5EDF21936DDC20070B70D /* iGroupingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +118,7 @@
 				81A5EDD31936DDC20070B70D /* CoreGraphics.framework */,
 				81A5EDD51936DDC20070B70D /* UIKit.framework */,
 				81A5EDF31936DDC20070B70D /* XCTest.framework */,
+				7F9696830F174E4681AC8545 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,14 +126,17 @@
 		81A5EDD71936DDC20070B70D /* grouper */ = {
 			isa = PBXGroup;
 			children = (
+				81A5EE0F193710620070B70D /* cell */,
 				81A5EDE01936DDC20070B70D /* WPGAppDelegate.h */,
 				81A5EDE11936DDC20070B70D /* WPGAppDelegate.m */,
 				81A5EDE31936DDC20070B70D /* Main_iPhone.storyboard */,
 				81A5EDE61936DDC20070B70D /* Main_iPad.storyboard */,
-				81A5EDE91936DDC20070B70D /* WPGViewController.h */,
-				81A5EDEA1936DDC20070B70D /* WPGViewController.m */,
 				81A5EDEC1936DDC20070B70D /* Images.xcassets */,
 				81A5EDD81936DDC20070B70D /* Supporting Files */,
+				81A5EE091936DF8D0070B70D /* WPGConfigViewController.h */,
+				81A5EE0A1936DF8D0070B70D /* WPGConfigViewController.m */,
+				81A5EE0C1936E2F30070B70D /* WPGGroupViewController.h */,
+				81A5EE0D1936E2F30070B70D /* WPGGroupViewController.m */,
 			);
 			path = grouper;
 			sourceTree = "<group>";
@@ -129,10 +144,10 @@
 		81A5EDD81936DDC20070B70D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				81A5EDD91936DDC20070B70D /* grouper-Info.plist */,
+				81A5EDD91936DDC20070B70D /* iGrouping-Info.plist */,
 				81A5EDDA1936DDC20070B70D /* InfoPlist.strings */,
 				81A5EDDD1936DDC20070B70D /* main.m */,
-				81A5EDDF1936DDC20070B70D /* grouper-Prefix.pch */,
+				81A5EDDF1936DDC20070B70D /* iGrouping-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -149,35 +164,46 @@
 		81A5EDFA1936DDC20070B70D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				81A5EDFB1936DDC20070B70D /* grouperTests-Info.plist */,
+				81A5EDFB1936DDC20070B70D /* iGroupingTests-Info.plist */,
 				81A5EDFC1936DDC20070B70D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		81A5EE0F193710620070B70D /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				81A5EE10193710760070B70D /* WPGQianCell.h */,
+				81A5EE11193710760070B70D /* WPGQianCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81A5EDCD1936DDC20070B70D /* grouper */ = {
+		81A5EDCD1936DDC20070B70D /* iGrouping */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81A5EE031936DDC20070B70D /* Build configuration list for PBXNativeTarget "grouper" */;
+			buildConfigurationList = 81A5EE031936DDC20070B70D /* Build configuration list for PBXNativeTarget "iGrouping" */;
 			buildPhases = (
+				FFA4283782D048D992DE31CF /* Check Pods Manifest.lock */,
 				81A5EDCA1936DDC20070B70D /* Sources */,
 				81A5EDCB1936DDC20070B70D /* Frameworks */,
 				81A5EDCC1936DDC20070B70D /* Resources */,
+				8E351B9FC1324033BA5B7065 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = grouper;
+			name = iGrouping;
 			productName = grouper;
-			productReference = 81A5EDCE1936DDC20070B70D /* grouper.app */;
+			productReference = 81A5EDCE1936DDC20070B70D /* iGrouping.app */;
 			productType = "com.apple.product-type.application";
 		};
-		81A5EDF11936DDC20070B70D /* grouperTests */ = {
+		81A5EDF11936DDC20070B70D /* iGroupingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81A5EE061936DDC20070B70D /* Build configuration list for PBXNativeTarget "grouperTests" */;
+			buildConfigurationList = 81A5EE061936DDC20070B70D /* Build configuration list for PBXNativeTarget "iGroupingTests" */;
 			buildPhases = (
 				81A5EDEE1936DDC20070B70D /* Sources */,
 				81A5EDEF1936DDC20070B70D /* Frameworks */,
@@ -188,9 +214,9 @@
 			dependencies = (
 				81A5EDF81936DDC20070B70D /* PBXTargetDependency */,
 			);
-			name = grouperTests;
+			name = iGroupingTests;
 			productName = grouperTests;
-			productReference = 81A5EDF21936DDC20070B70D /* grouperTests.xctest */;
+			productReference = 81A5EDF21936DDC20070B70D /* iGroupingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 81A5EDC91936DDC20070B70D /* Build configuration list for PBXProject "grouper" */;
+			buildConfigurationList = 81A5EDC91936DDC20070B70D /* Build configuration list for PBXProject "iGrouping" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,8 +247,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81A5EDCD1936DDC20070B70D /* grouper */,
-				81A5EDF11936DDC20070B70D /* grouperTests */,
+				81A5EDCD1936DDC20070B70D /* iGrouping */,
+				81A5EDF11936DDC20070B70D /* iGroupingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,14 +275,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E351B9FC1324033BA5B7065 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA4283782D048D992DE31CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81A5EDCA1936DDC20070B70D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				81A5EDDE1936DDC20070B70D /* main.m in Sources */,
+				81A5EE12193710760070B70D /* WPGQianCell.m in Sources */,
+				81A5EE0E1936E2F30070B70D /* WPGGroupViewController.m in Sources */,
+				81A5EE0B1936DF8D0070B70D /* WPGConfigViewController.m in Sources */,
 				81A5EDE21936DDC20070B70D /* WPGAppDelegate.m in Sources */,
-				81A5EDEB1936DDC20070B70D /* WPGViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +334,7 @@
 /* Begin PBXTargetDependency section */
 		81A5EDF81936DDC20070B70D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 81A5EDCD1936DDC20070B70D /* grouper */;
+			target = 81A5EDCD1936DDC20070B70D /* iGrouping */;
 			targetProxy = 81A5EDF71936DDC20070B70D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -388,26 +449,28 @@
 		};
 		81A5EE041936DDC20070B70D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2738D3D3F144234ACB0A007 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "grouper/grouper-Prefix.pch";
-				INFOPLIST_FILE = "grouper/grouper-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "grouper/iGrouping-Prefix.pch";
+				INFOPLIST_FILE = "grouper/iGrouping-Info.plist";
+				PRODUCT_NAME = iGrouping;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		81A5EE051936DDC20070B70D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2738D3D3F144234ACB0A007 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "grouper/grouper-Prefix.pch";
-				INFOPLIST_FILE = "grouper/grouper-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "grouper/iGrouping-Prefix.pch";
+				INFOPLIST_FILE = "grouper/iGrouping-Info.plist";
+				PRODUCT_NAME = iGrouping;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -427,8 +490,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "grouperTests/grouperTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "grouperTests/iGroupingTests-Info.plist";
+				PRODUCT_NAME = iGroupingTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -445,8 +508,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "grouper/grouper-Prefix.pch";
-				INFOPLIST_FILE = "grouperTests/grouperTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "grouperTests/iGroupingTests-Info.plist";
+				PRODUCT_NAME = iGroupingTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -455,7 +518,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81A5EDC91936DDC20070B70D /* Build configuration list for PBXProject "grouper" */ = {
+		81A5EDC91936DDC20070B70D /* Build configuration list for PBXProject "iGrouping" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81A5EE011936DDC20070B70D /* Debug */,
@@ -464,21 +527,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81A5EE031936DDC20070B70D /* Build configuration list for PBXNativeTarget "grouper" */ = {
+		81A5EE031936DDC20070B70D /* Build configuration list for PBXNativeTarget "iGrouping" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81A5EE041936DDC20070B70D /* Debug */,
 				81A5EE051936DDC20070B70D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		81A5EE061936DDC20070B70D /* Build configuration list for PBXNativeTarget "grouperTests" */ = {
+		81A5EE061936DDC20070B70D /* Build configuration list for PBXNativeTarget "iGroupingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81A5EE071936DDC20070B70D /* Debug */,
 				81A5EE081936DDC20070B70D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

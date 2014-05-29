@@ -1,5 +1,5 @@
 //
-//  WPGViewController.h
+//  WPGGroupViewController.h
 //  grouper
 //
 //  Created by 高磊 on 14-5-29.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WPGViewController : UIViewController
+@interface WPGGroupViewController : UICollectionViewController
+@property (nonatomic, strong) NSArray *qian;
 
 @end
