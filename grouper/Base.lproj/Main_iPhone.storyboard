@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="oGQ-Cw-pzE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A261i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="oGQ-Cw-pzE">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -57,7 +57,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="rtc-Xq-u71" kind="push" id="XqH-29-vcg"/>
+                                    <segue destination="rtc-Xq-u71" kind="modal" id="XqH-29-vcg"/>
                                 </connections>
                             </button>
                             <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minimumValue="1" maximumValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="qP6-yA-x8J">
@@ -137,7 +137,7 @@
             </objects>
             <point key="canvasLocation" x="196" y="86"/>
         </scene>
-        <!--Group View Controller - 抽签-->
+        <!--Group View Controller-->
         <scene sceneID="HEs-fS-WEd">
             <objects>
                 <collectionViewController autoresizesArchivedViewToFullSize="NO" id="rtc-Xq-u71" customClass="WPGGroupViewController" sceneMemberID="viewController">
@@ -153,7 +153,7 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="aXo-lr-v2G" customClass="WPGQianCell">
-                                <rect key="frame" x="10" y="74" width="90" height="120"/>
+                                <rect key="frame" x="10" y="10" width="90" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="90" height="120"/>
@@ -186,7 +186,6 @@
                             <outlet property="delegate" destination="rtc-Xq-u71" id="uzB-Lf-JDQ"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" title="抽签" id="SMO-jg-cs7"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WLZ-xD-tiP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

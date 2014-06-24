@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WPGGroupViewController : UICollectionViewController
+@interface WPGGroupViewController : UICollectionViewController <UIAlertViewDelegate>
 @property (nonatomic, strong) NSArray *qian;
 
 @end

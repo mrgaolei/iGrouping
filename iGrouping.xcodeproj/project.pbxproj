@@ -229,6 +229,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = WholePort;
 				TargetAttributes = {
+					81A5EDCD1936DDC20070B70D = {
+						DevelopmentTeam = G98YR65B2Q;
+					};
 					81A5EDF11936DDC20070B70D = {
 						TestTargetID = 81A5EDCD1936DDC20070B70D;
 					};
@@ -453,10 +456,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "grouper/iGrouping-Prefix.pch";
 				INFOPLIST_FILE = "grouper/iGrouping-Info.plist";
 				PRODUCT_NAME = iGrouping;
+				PROVISIONING_PROFILE = "CE117C7C-6486-4052-AA22-C27B33843C2C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -467,10 +472,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: lei gao (G98YR65B2Q)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "grouper/iGrouping-Prefix.pch";
 				INFOPLIST_FILE = "grouper/iGrouping-Info.plist";
 				PRODUCT_NAME = iGrouping;
+				PROVISIONING_PROFILE = "CE117C7C-6486-4052-AA22-C27B33843C2C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

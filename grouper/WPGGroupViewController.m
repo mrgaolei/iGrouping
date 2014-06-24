@@ -16,6 +16,7 @@
 @implementation WPGGroupViewController
 {
     NSMutableArray *opened;
+    UIAlertView *alert;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -32,12 +33,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     opened = [NSMutableArray array];
+    alert = [[UIAlertView alloc] initWithTitle:@"抽签已完成" message:@"是否重新抽签？" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"重新抽签", nil];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
 }
 
 - (void)done:(id)sender
@@ -55,6 +62,20 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)returnStart:(id)sender
+{
+    [alert show];
+}
+
+#pragma mark - UIAlertViewDelegate
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex != alertView.cancelButtonIndex) {
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }
+}
 
 #pragma mark - UICollectionView
 
@@ -92,6 +113,10 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
+    if (opened.count >= self.qian.count) {
+        [self returnStart:self];
+        return;
+    }
     if ([opened containsObject:indexPath]) {
         return;
     }
