@@ -25,6 +25,7 @@
 		81A5EE0B1936DF8D0070B70D /* WPGConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A5EE0A1936DF8D0070B70D /* WPGConfigViewController.m */; };
 		81A5EE0E1936E2F30070B70D /* WPGGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A5EE0D1936E2F30070B70D /* WPGGroupViewController.m */; };
 		81A5EE12193710760070B70D /* WPGQianCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A5EE11193710760070B70D /* WPGQianCell.m */; };
+		81DF35E91A01DA7E0023C00B /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81DF35E81A01DA7E0023C00B /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		81A5EE0D1936E2F30070B70D /* WPGGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPGGroupViewController.m; sourceTree = "<group>"; };
 		81A5EE10193710760070B70D /* WPGQianCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPGQianCell.h; sourceTree = "<group>"; };
 		81A5EE11193710760070B70D /* WPGQianCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPGQianCell.m; sourceTree = "<group>"; };
+		81DF35E81A01DA7E0023C00B /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		D2738D3D3F144234ACB0A007 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 				81A5EE0A1936DF8D0070B70D /* WPGConfigViewController.m */,
 				81A5EE0C1936E2F30070B70D /* WPGGroupViewController.h */,
 				81A5EE0D1936E2F30070B70D /* WPGGroupViewController.m */,
+				81DF35E81A01DA7E0023C00B /* Launch Screen.xib */,
 			);
 			path = grouper;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				81A5EDED1936DDC20070B70D /* Images.xcassets in Resources */,
 				81A5EDE51936DDC20070B70D /* Main_iPhone.storyboard in Resources */,
 				81A5EDDC1936DDC20070B70D /* InfoPlist.strings in Resources */,
+				81DF35E91A01DA7E0023C00B /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
