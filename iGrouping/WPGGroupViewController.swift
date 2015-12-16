@@ -70,7 +70,7 @@ class WPGGroupViewController: UICollectionViewController, UIAlertViewDelegate {
     }
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as WPGQianCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! WPGQianCell
     
         // Configure the cell
         var hidden: Bool = true

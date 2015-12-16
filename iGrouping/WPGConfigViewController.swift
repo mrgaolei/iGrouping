@@ -30,7 +30,7 @@ class WPGConfigViewController: UIViewController {
     func updateLabelValue() {
         label_preGroup.text = "\(perGroup)"
         label_groupCount.text = "\(groupCount)"
-        var sum: NSInteger = perGroup * groupCount
+        let sum: NSInteger = perGroup * groupCount
         label_sum.text = "总人数：\(sum)"
     }
     
@@ -56,14 +56,14 @@ class WPGConfigViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         if (segue.destinationViewController.isMemberOfClass(WPGGroupViewController.classForCoder())) {
-            var qian: NSMutableArray = NSMutableArray()
-            var words: NSArray = NSArray(objects: "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z")
+            let qian: NSMutableArray = NSMutableArray()
+            let words: NSArray = NSArray(objects: "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z")
             for i in 0...groupCount-1 {
                 for j in 0...perGroup-1 {
                     qian.addObject(words.objectAtIndex(i))
                 }
             }
-            var vc: WPGGroupViewController = segue.destinationViewController as WPGGroupViewController
+            let vc: WPGGroupViewController = segue.destinationViewController as! WPGGroupViewController
             vc.qian = qian.shuffledArray()
         }
     }
